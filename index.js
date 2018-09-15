@@ -50,6 +50,8 @@ module.exports = function(photoPath, options) {
   app.use('/js', static(resolveModulePath('lg-zoom') + '/dist'));
   app.use('/js', static(resolveModulePath('lg-thumbnail') + '/dist'));
   app.use('/js', static(resolveModulePath('lg-fullscreen') + '/dist'));
+  //app.use('/js', static(resolveModulePath('lg-autoplay') + '/dist'));
+
 
   app.get('/', function(req, res) {
 
