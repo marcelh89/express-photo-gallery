@@ -1,0 +1,13 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "documents2img.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run documents2img && node server.js",
+    "documents2img": "node documents2img.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

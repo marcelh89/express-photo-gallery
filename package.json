@@ -4,7 +4,9 @@
   "description": "Express middleware which serves a stylish and responsive photo gallery using jQuery lightgallery.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -t 4000"
+    "test": "mocha -t 4000",
+    "pdf2img" : "node lib/convertDocuments.js",
+    "start" : "npm run pdf2img && node example/server.js"
   },
   "keywords": [
     "photo",
