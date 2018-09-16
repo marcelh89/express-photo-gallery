@@ -75,6 +75,12 @@ CentOS:
 yum install ImageMagick
 ```
 
+Fedora:
+```
+dnf install GraphicsMagick
+```
+
+
 Mac OS X (using Homebrew):
 ```
 brew install imagemagick
